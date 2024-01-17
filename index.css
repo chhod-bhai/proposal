@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'dss';
+    src: url(./fonts/DancingScript-SemiBold.ttf) format('truetype');
+}
+
+
+
+body {
+    background-color: #fbc3c3;
+    height: 100vh;
+    width: 100%;
+}
+
+.cutegif {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    max-width: 450px;
+    position: relative;
+}
+
+.one {
+    display: flex;
+}
+
+.two {
+    display: none;
+}
+
+.heading {
+    font-family: dss;
+    font-size: 32px;
+    color:  #3E2723;
+}
+
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.no {
+    background-color: #FF6666;
+    border: none;
+}
+
+.yes {
+    background-color: #FFB74D;
+    border: none;
+}
+
+.text {
+    width: 75%;
+    background-color: #F9F6F0;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #333333;
+    padding: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
