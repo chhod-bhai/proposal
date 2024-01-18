@@ -1,6 +1,7 @@
 
 
-window.addEventListener('DOMContentLoaded', function () {
+document.getElementById("playbtn").addEventListener('click',  () =>  {
+    console.log("helow sowlaksjf")
     let audio = this.document.getElementsByTagName("audio");
     if (audio.length) audio[0].play();
 })
