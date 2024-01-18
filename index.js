@@ -1,12 +1,5 @@
 
 
-document.getElementById("playbtn").addEventListener('click',  () =>  {
-    console.log("helow sowlaksjf")
-    let audio = this.document.getElementsByTagName("audio");
-    if (audio.length) audio[0].play();
-})
-
-
 function getRandomNumberWithin(range) {
    return Math.floor(Math.random() * range).toString() + "px";
 }
@@ -29,6 +22,4 @@ yesBtn.addEventListener("click", () => {
         const firstPageElem = document.getElementsByClassName("one")
         if( firstPageElem.length) firstPageElem[0].style.display = 'none';
     }
-
-
 })

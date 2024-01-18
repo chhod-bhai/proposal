@@ -80,27 +80,3 @@ button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.play-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-    background-color:#FF6666 ;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .play-button:hover {
-    background-color: #FF6666;
-  }
-
-  .play-icon {
-    color: #fff; /* White color for the play icon, you can change it */
-    font-size: 24px; /* Adjust the size of the play icon */
-    transform: translate(4px,2px);
-  }
